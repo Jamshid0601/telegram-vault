@@ -1,5 +1,5 @@
 const tg = window.Telegram.WebApp;
-const API_BASE_URL = 'http://localhost:3000'; // CHANGE THIS TO YOUR HOSTED BACKEND URL
+const API_BASE_URL = 'https://jamshid0601.github.io/telegram-vault/'; // CHANGE THIS TO YOUR HOSTED BACKEND URL
 
 // Expand WebApp
 tg.expand();
@@ -141,3 +141,4 @@ window.deleteSecret = async (key) => {
         alert('Delete failed');
     }
 };
+
